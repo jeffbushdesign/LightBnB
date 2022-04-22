@@ -149,10 +149,13 @@ const getAllProperties = function (options, limit = 10) {
     queryString += `AND cost_per_night >= $${queryParams.length - 1} AND cost_per_night <= $${queryParams.length} `;
   }
 
-  
+  if (options.minimum_rating) {
+    queryParams.push(Number(options.minimum_rating));
+    queryString += `AND rating >= $${queryParams.length} `;
+  }
 
-  console.log('options.owner_id',options.owner_id);
-  console.log(queryString, options);
+  // console.log('options.owner_id',options.owner_id);
+  // console.log(queryString, options);
   // console.log('Options:', options);
   // console.log('Right before return', queryParams);
   
