@@ -24,13 +24,18 @@ LightBnB is a web app that we built to practice making database queries.
 
 # Using PostgreSQL to query the database:
 - In terminal:
-  - cd LightBnb
-  - psql lightbnb
+```js
+  cd LightBnb
+  psql lightbnb
+```
 - Example query:
   - Show email addresses of all users:
-    - SELECT email FROM users;
+```js
+SELECT email FROM users;
+```
     - Result:
-    - email              
+```js
+            email              
 ---------------------------------
  renhoek@nickelodeon.com
  stimpy@nickelodeon.com
@@ -40,3 +45,4 @@ LightBnB is a web app that we built to practice making database queries.
  asherpoole@gmx.com
  michaelgray@mail.com
  ...
+ ```
