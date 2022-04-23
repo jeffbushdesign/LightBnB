@@ -9,21 +9,13 @@ Built with:
 - PostgreSQL database
 
 ## Screenshots
-| ![01 - Page showing a user who has logged in](https://user-images.githubusercontent.com/41748727/164865584-4341dd32-63ae-4a90-8617-794b84fc7e02.png) |
+| ![User logged in](https://user-images.githubusercontent.com/41748727/164865584-4341dd32-63ae-4a90-8617-794b84fc7e02.png) |
 :--:
-| _Page showing a user who has logged in_ |
+| _User logged in_ |
 
-| ![02 - Search for properties by filtering query](https://user-images.githubusercontent.com/41748727/164865586-60d75a91-c8f0-4471-a892-19f76bdeb977.png) |
+| ![ERD - Entity Relationship Diagram](https://user-images.githubusercontent.com/41748727/164865589-9406f24c-fc97-4330-85f6-2b5c41f33df1.png) |
 :--:
-| _Search for properties by filtering query_ |
-
-| ![03 - Create new listings](https://user-images.githubusercontent.com/41748727/164865587-bfe0f75a-3bb5-4e7a-b883-89bd79253474.png) |
-:--:
-| _Create new listings_ |
-
-| ![04 - ERD - Entity Relationship Diagram - LightBnB](https://user-images.githubusercontent.com/41748727/164865589-9406f24c-fc97-4330-85f6-2b5c41f33df1.png) |
-:--:
-| _Entity Relationship Diagram - LightBnB_ |
+| _Entity Relationship Diagram_ |
 
 ## Getting Started
 ### Start the server:
